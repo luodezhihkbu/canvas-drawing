@@ -1,0 +1,11 @@
+{
+  "name": "canvas-drawing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luodezhihkbu/canvas-drawing.git",
+  "author": "Davis <326461396@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  }
+}
